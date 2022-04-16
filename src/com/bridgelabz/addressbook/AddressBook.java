@@ -1,3 +1,8 @@
+/*@Purpose::Ability to get number of contact persons i.e.count by City or State.
+ *@File::Address_Book_Problem
+ *@Author::Kishlay Kishan
+ */
+
 package com.bridgelabz.addressbook;
 
 import java.util.LinkedList;
@@ -145,7 +150,7 @@ public class AddressBook {
 
 		while (!inputMatcher.matches()) {
 			System.out.println("Error: Invalid first name, please try again");
-			System.out.println("length must not exceeds 10 (Exa: Karthik)");
+			System.out.println("length must not exceeds 10 (Exa: Kishlay)");
 			firstName = scanner.nextLine();
 			inputMatcher = regex.matcher(firstName);
 		}
